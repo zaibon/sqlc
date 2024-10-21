@@ -4,7 +4,6 @@ go 1.23.0
 
 toolchain go1.24.1
 
-replace github.com/sqlc-dev/sqlc => github.com/prog8/sqlc archipelo1.21.1
 
 require (
 	github.com/antlr4-go/antlr/v4 v4.13.1
