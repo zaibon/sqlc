@@ -1,8 +1,10 @@
-module github.com/sqlc-dev/sqlc
+module github.com/prog8/sqlc
 
 go 1.23.0
 
 toolchain go1.24.1
+
+replace github.com/sqlc-dev/sqlc => github.com/prog8/sqlc archipelo1.21.1
 
 require (
 	github.com/antlr4-go/antlr/v4 v4.13.1
@@ -51,7 +53,6 @@ require (
 	github.com/pingcap/failpoint v0.0.0-20240528011301-b51a646c7c86 // indirect
 	github.com/pingcap/log v1.1.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/wasilibs/wazero-helpers v0.0.0-20240620070341-3dff1577cd52 // indirect
 	github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f // indirect
