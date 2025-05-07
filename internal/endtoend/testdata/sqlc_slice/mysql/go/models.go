@@ -7,7 +7,7 @@ package querytest
 import (
 	"database/sql"
 
-	"github.com/prog8/sqlc-testdata/mysql"
+	"github.com/zaibon/sqlc-testdata/mysql"
 )
 
 type Foo struct {

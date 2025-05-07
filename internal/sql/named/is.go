@@ -1,8 +1,8 @@
 package named
 
 import (
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
 )
 
 // IsParamFunc fulfills the astutils.Search

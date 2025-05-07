@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/catalog"
-	"github.com/prog8/sqlc/internal/sql/lang"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/catalog"
+	"github.com/zaibon/sqlc/internal/sql/lang"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 )
 
 // OutputColumns determines which columns a statement will output

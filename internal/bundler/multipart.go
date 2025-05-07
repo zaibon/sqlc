@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	pb "github.com/prog8/sqlc/internal/quickdb/v1"
-	"github.com/prog8/sqlc/internal/sql/sqlpath"
+	pb "github.com/zaibon/sqlc/internal/quickdb/v1"
+	"github.com/zaibon/sqlc/internal/sql/sqlpath"
 )
 
 func readFiles(dir string, paths []string) ([]*pb.File, error) {

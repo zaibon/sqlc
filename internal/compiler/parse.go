@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/prog8/sqlc/internal/debug"
-	"github.com/prog8/sqlc/internal/metadata"
-	"github.com/prog8/sqlc/internal/opts"
-	"github.com/prog8/sqlc/internal/source"
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/validate"
+	"github.com/zaibon/sqlc/internal/debug"
+	"github.com/zaibon/sqlc/internal/metadata"
+	"github.com/zaibon/sqlc/internal/opts"
+	"github.com/zaibon/sqlc/internal/source"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/validate"
 )
 
 func (c *Compiler) parseQuery(stmt ast.Node, src string, o opts.Parser) (*Query, error) {

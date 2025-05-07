@@ -7,7 +7,7 @@ import (
 
 	yaml "gopkg.in/yaml.v3"
 
-	golang "github.com/prog8/sqlc/internal/codegen/golang/opts"
+	golang "github.com/zaibon/sqlc/internal/codegen/golang/opts"
 )
 
 type V1GenerateSettings struct {

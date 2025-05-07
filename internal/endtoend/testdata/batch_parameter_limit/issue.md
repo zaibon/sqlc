@@ -1,1 +1,1 @@
-https://github.com/prog8/sqlc/issues/3185
+https://github.com/zaibon/sqlc/issues/3185

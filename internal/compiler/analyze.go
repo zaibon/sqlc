@@ -3,13 +3,13 @@ package compiler
 import (
 	"sort"
 
-	analyzer "github.com/prog8/sqlc/internal/analysis"
-	"github.com/prog8/sqlc/internal/config"
-	"github.com/prog8/sqlc/internal/source"
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/named"
-	"github.com/prog8/sqlc/internal/sql/rewrite"
-	"github.com/prog8/sqlc/internal/sql/validate"
+	analyzer "github.com/zaibon/sqlc/internal/analysis"
+	"github.com/zaibon/sqlc/internal/config"
+	"github.com/zaibon/sqlc/internal/source"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/named"
+	"github.com/zaibon/sqlc/internal/sql/rewrite"
+	"github.com/zaibon/sqlc/internal/sql/validate"
 )
 
 type analysis struct {

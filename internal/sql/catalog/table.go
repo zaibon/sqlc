@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 )
 
 // Table describes a relational database table

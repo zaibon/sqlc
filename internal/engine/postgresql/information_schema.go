@@ -3,8 +3,8 @@
 package postgresql
 
 import (
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/catalog"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/catalog"
 )
 
 var funcsgenInformationSchema = []*catalog.Function{}

@@ -6,7 +6,7 @@ import (
 	"maps"
 	"path/filepath"
 
-	"github.com/prog8/sqlc/internal/plugin"
+	"github.com/zaibon/sqlc/internal/plugin"
 )
 
 type Options struct {

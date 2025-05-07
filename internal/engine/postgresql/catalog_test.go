@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 
 	"github.com/google/go-cmp/cmp"
 )

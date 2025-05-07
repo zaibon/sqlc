@@ -1,6 +1,6 @@
 package golang
 
-import "github.com/prog8/sqlc/internal/codegen/golang/opts"
+import "github.com/zaibon/sqlc/internal/codegen/golang/opts"
 
 func parseDriver(sqlPackage string) opts.SQLDriver {
 	switch sqlPackage {

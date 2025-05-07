@@ -1,7 +1,7 @@
 package catalog
 
 import (
-	"github.com/prog8/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/ast"
 )
 
 func (c *Catalog) createExtension(stmt *ast.CreateExtensionStmt) error {

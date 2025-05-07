@@ -3,10 +3,10 @@ package validate
 import (
 	"fmt"
 
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/catalog"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/catalog"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 )
 
 type inVisitor struct {

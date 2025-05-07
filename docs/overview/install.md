@@ -19,7 +19,7 @@ sudo snap install sqlc
 Installing recent versions of sqlc requires Go 1.21+.
 
 ```
-go install github.com/prog8/sqlc/cmd/sqlc@latest
+go install github.com/zaibon/sqlc/cmd/sqlc@latest
 ```
 
 ## Docker

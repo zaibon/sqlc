@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prog8/sqlc/internal/sqltest"
+	"github.com/zaibon/sqlc/internal/sqltest"
 )
 
 // TODO: Enum is not yet supported

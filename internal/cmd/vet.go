@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/sqlc-dev/sqlc/internal/constants"
 	"io"
 	"log"
 	"os"
@@ -16,6 +15,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/zaibon/sqlc/internal/constants"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/ext"
@@ -23,16 +24,16 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/prog8/sqlc/internal/config"
-	"github.com/prog8/sqlc/internal/dbmanager"
-	"github.com/prog8/sqlc/internal/debug"
-	"github.com/prog8/sqlc/internal/migrations"
-	"github.com/prog8/sqlc/internal/opts"
-	"github.com/prog8/sqlc/internal/plugin"
-	"github.com/prog8/sqlc/internal/quickdb"
-	"github.com/prog8/sqlc/internal/shfmt"
-	"github.com/prog8/sqlc/internal/sql/sqlpath"
-	"github.com/prog8/sqlc/internal/vet"
+	"github.com/zaibon/sqlc/internal/config"
+	"github.com/zaibon/sqlc/internal/dbmanager"
+	"github.com/zaibon/sqlc/internal/debug"
+	"github.com/zaibon/sqlc/internal/migrations"
+	"github.com/zaibon/sqlc/internal/opts"
+	"github.com/zaibon/sqlc/internal/plugin"
+	"github.com/zaibon/sqlc/internal/quickdb"
+	"github.com/zaibon/sqlc/internal/shfmt"
+	"github.com/zaibon/sqlc/internal/sql/sqlpath"
+	"github.com/zaibon/sqlc/internal/vet"
 )
 
 var ErrFailedChecks = errors.New("failed checks")

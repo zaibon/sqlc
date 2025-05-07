@@ -28,11 +28,11 @@ Zig       `tinyzimmer/sqlc-gen-zig`_         N/A              Beta             B
 [Any]     `fdietze/sqlc-gen-from-template`_  Stable           Stable           Stable
 ========  =================================  ===============  ===============  ===============
 
-.. _sqlc-gen-go: https://github.com/prog8/sqlc-gen-go
+.. _sqlc-gen-go: https://github.com/zaibon/sqlc-gen-go
 .. _kaashyapan/sqlc-gen-fsharp: https://github.com/kaashyapan/sqlc-gen-fsharp
-.. _sqlc-gen-kotlin: https://github.com/prog8/sqlc-gen-kotlin
-.. _sqlc-gen-python: https://github.com/prog8/sqlc-gen-python
-.. _sqlc-gen-typescript: https://github.com/prog8/sqlc-gen-typescript
+.. _sqlc-gen-kotlin: https://github.com/zaibon/sqlc-gen-kotlin
+.. _sqlc-gen-python: https://github.com/zaibon/sqlc-gen-python
+.. _sqlc-gen-typescript: https://github.com/zaibon/sqlc-gen-typescript
 .. _DaredevilOSS/sqlc-gen-csharp: https://github.com/DaredevilOSS/sqlc-gen-csharp
 .. _DaredevilOSS/sqlc-gen-ruby: https://github.com/DaredevilOSS/sqlc-gen-ruby
 .. _fdietze/sqlc-gen-from-template: https://github.com/fdietze/sqlc-gen-from-template

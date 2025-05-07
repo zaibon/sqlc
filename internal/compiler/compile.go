@@ -8,14 +8,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/prog8/sqlc/internal/migrations"
-	"github.com/prog8/sqlc/internal/multierr"
-	"github.com/prog8/sqlc/internal/opts"
-	"github.com/prog8/sqlc/internal/rpc"
-	"github.com/prog8/sqlc/internal/source"
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
-	"github.com/prog8/sqlc/internal/sql/sqlpath"
+	"github.com/zaibon/sqlc/internal/migrations"
+	"github.com/zaibon/sqlc/internal/multierr"
+	"github.com/zaibon/sqlc/internal/opts"
+	"github.com/zaibon/sqlc/internal/rpc"
+	"github.com/zaibon/sqlc/internal/source"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/sqlpath"
 )
 
 // TODO: Rename this interface Engine

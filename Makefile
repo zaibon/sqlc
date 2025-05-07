@@ -52,6 +52,6 @@ proto:
 
 remote-proto:
 	protoc \
-		--go_out=. --go_opt="Minternal/remote/gen.proto=github.com/prog8/sqlc/internal/remote" --go_opt=module=github.com/prog8/sqlc \
-        --go-grpc_out=. --go-grpc_opt="Minternal/remote/gen.proto=github.com/prog8/sqlc/internal/remote" --go-grpc_opt=module=github.com/prog8/sqlc \
+		--go_out=. --go_opt="Minternal/remote/gen.proto=github.com/zaibon/sqlc/internal/remote" --go_opt=module=github.com/zaibon/sqlc \
+        --go-grpc_out=. --go-grpc_opt="Minternal/remote/gen.proto=github.com/zaibon/sqlc/internal/remote" --go-grpc_opt=module=github.com/zaibon/sqlc \
         internal/remote/gen.proto

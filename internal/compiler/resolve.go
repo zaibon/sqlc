@@ -5,12 +5,12 @@ import (
 	"log/slog"
 	"strconv"
 
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/catalog"
-	"github.com/prog8/sqlc/internal/sql/named"
-	"github.com/prog8/sqlc/internal/sql/rewrite"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/catalog"
+	"github.com/zaibon/sqlc/internal/sql/named"
+	"github.com/zaibon/sqlc/internal/sql/rewrite"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 )
 
 func dataType(n *ast.TypeName) string {

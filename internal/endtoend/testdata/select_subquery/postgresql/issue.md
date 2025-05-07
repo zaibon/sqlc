@@ -1,1 +1,1 @@
-https://github.com/prog8/sqlc/pull/2639
+https://github.com/zaibon/sqlc/pull/2639

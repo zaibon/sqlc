@@ -1,8 +1,8 @@
 package catalog
 
 import (
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/sqlerr"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/sqlerr"
 )
 
 func (c *Catalog) createView(stmt *ast.ViewStmt, colGen columnGenerator) error {

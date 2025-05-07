@@ -3,11 +3,12 @@ package metadata
 import (
 	"bufio"
 	"fmt"
-	"github.com/sqlc-dev/sqlc/internal/constants"
 	"strings"
 	"unicode"
 
-	"github.com/prog8/sqlc/internal/source"
+	"github.com/zaibon/sqlc/internal/constants"
+
+	"github.com/zaibon/sqlc/internal/source"
 )
 
 type CommentSyntax source.CommentSyntax

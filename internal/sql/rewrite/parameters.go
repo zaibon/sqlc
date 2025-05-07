@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/prog8/sqlc/internal/config"
-	"github.com/prog8/sqlc/internal/source"
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/named"
+	"github.com/zaibon/sqlc/internal/config"
+	"github.com/zaibon/sqlc/internal/source"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/named"
 )
 
 // Given an AST node, return the string representation of names

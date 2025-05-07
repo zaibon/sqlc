@@ -5,7 +5,7 @@ CREATE TABLE authors (
   bio  text
 );
 
--- https://github.com/prog8/sqlc/issues/1290
+-- https://github.com/zaibon/sqlc/issues/1290
 CREATE TABLE users (
   sub TEXT PRIMARY KEY
 );

@@ -3,7 +3,7 @@ package cmd
 import (
 	"io"
 
-	"github.com/prog8/sqlc/internal/config"
+	"github.com/zaibon/sqlc/internal/config"
 )
 
 type Options struct {

@@ -18,7 +18,7 @@ jobs:
         run: go install ./...
       - uses: actions/checkout@v4
         with:
-          repository: prog8/sqlc-gen-kotlin
+          repository: zaibon/sqlc-gen-kotlin
           path: kotlin
       - run: make test
         working-directory: kotlin

@@ -6,7 +6,7 @@ package override
 
 import (
 	"github.com/lib/pq"
-	"github.com/prog8/sqlc-testdata/pkg"
+	"github.com/zaibon/sqlc-testdata/pkg"
 )
 
 type Foo struct {

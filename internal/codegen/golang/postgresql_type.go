@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/prog8/sqlc/internal/codegen/golang/opts"
-	"github.com/prog8/sqlc/internal/codegen/sdk"
-	"github.com/prog8/sqlc/internal/debug"
-	"github.com/prog8/sqlc/internal/plugin"
+	"github.com/zaibon/sqlc/internal/codegen/golang/opts"
+	"github.com/zaibon/sqlc/internal/codegen/sdk"
+	"github.com/zaibon/sqlc/internal/debug"
+	"github.com/zaibon/sqlc/internal/plugin"
 )
 
 func parseIdentifierString(name string) (*plugin.Identifier, error) {

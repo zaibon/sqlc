@@ -1,8 +1,8 @@
 package sqlite
 
 import (
-	"github.com/prog8/sqlc/internal/engine/sqlite/parser"
-	"github.com/prog8/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/engine/sqlite/parser"
+	"github.com/zaibon/sqlc/internal/sql/ast"
 )
 
 type tableNamer interface {

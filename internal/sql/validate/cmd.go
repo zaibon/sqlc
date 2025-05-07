@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/prog8/sqlc/internal/metadata"
-	"github.com/prog8/sqlc/internal/sql/ast"
-	"github.com/prog8/sqlc/internal/sql/astutils"
-	"github.com/prog8/sqlc/internal/sql/named"
+	"github.com/zaibon/sqlc/internal/metadata"
+	"github.com/zaibon/sqlc/internal/sql/ast"
+	"github.com/zaibon/sqlc/internal/sql/astutils"
+	"github.com/zaibon/sqlc/internal/sql/named"
 )
 
 func validateCopyfrom(n ast.Node) error {

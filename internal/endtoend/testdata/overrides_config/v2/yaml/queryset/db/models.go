@@ -5,7 +5,7 @@
 package db
 
 import (
-	"github.com/prog8/sqlc-testdata/pkg"
+	"github.com/zaibon/sqlc-testdata/pkg"
 )
 
 type Override struct {

@@ -3,8 +3,8 @@
 package postgresql
 
 import (
-	"github.com/prog8/sqlc/internal/engine/postgresql/contrib"
-	"github.com/prog8/sqlc/internal/sql/catalog"
+	"github.com/zaibon/sqlc/internal/engine/postgresql/contrib"
+	"github.com/zaibon/sqlc/internal/sql/catalog"
 )
 
 func loadExtension(name string) *catalog.Schema {
